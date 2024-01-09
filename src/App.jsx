@@ -7,17 +7,19 @@ const App = () => {
 
   return (
     <Container>
-      <Div>
-        <P>Te invitamos</P>
-        <H2>A nuestra Posada Navideña</H2>
-        <P>Por parte de la familia Colula Salinas</P>
-      </Div>
-      <Div2>
-        <P2>23 de Diciembre de 2023</P2>
-        <P2>7:00 p.m.</P2>
-        <P2>Cerrada Paseo de Otoño Mz. 6 Lt. 2, colonia San Juan Zapotla</P2>
-      </Div2>
       <Button onClick={handleButtonClick}>Ver ubicación</Button>
+      <Div2>
+        <P2>27 de Enero de 2023</P2>
+        <P2>7:00 p.m.</P2>
+        <P2>Calle --- Mz. - Lt. -, Col. --</P2>
+      </Div2>
+      <Div>
+        <P>Ven a celebrar</P>
+        <P>conmigo</P>
+        <H2>Mis 5 años</H2>
+        <P>Mateo</P>
+      </Div>
+      
     </Container>
   );
 };
@@ -25,28 +27,27 @@ const App = () => {
 export default App;
 
 const Container = styled.div`
-  background-image: url(https://res.cloudinary.com/dnrcmjyu1/image/upload/v1703154842/Projects/Invitaciones/navidad02_ciq2ww.png);
+  background-image: url(https://res.cloudinary.com/dnrcmjyu1/image/upload/v1704809369/Projects/Invitaciones/invitacion-fondo_gpxx1w.jpg);
 
   background-size: cover;
   background-position: center;
   height: 100vh;
   padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
 `;
 
 const Div = styled.div`
   font-family: "Sevillana", cursive;
   text-align: center;
-  margin-top: 120px;
-  margin-bottom: 40px;
+  margin-bottom:10px;
 `;
 
 const Div2 = styled.div`
   font-family: "Sevillana", cursive;
   text-align: center;
-  margin-bottom: 40px;
+  margin: 15px;
 `;
 
 const P = styled.p`
@@ -72,12 +73,12 @@ const P2 = styled.p`
 const H2 = styled.h2`
   font-family: "Dancing Script", cursive;
   font-size: 50px;
-  color: #a1620b;
+  color: #024802;
   text-shadow: 2px 2px 4px white;
-  margin: 30px;
+  margin: 10px;
   @media (max-height: 850px) {
     font-size: 35px;
-    margin: 15px;
+    margin: 5px;
   }
 `;
 
@@ -86,9 +87,10 @@ const Button = styled.button`
   background: #ffffff;
   font-family: "Dancing Script", cursive;
   font-size: 30px;
-  color: #ca7e13;
+  color: #024802;
   border-radius: 5px;
-  border: 2px #ca7e13 solid;
+  border: 2px #024802 solid;
+  margin-bottom: 10px;
   @media (max-height: 850px) {
     font-size: 20px;
   }
