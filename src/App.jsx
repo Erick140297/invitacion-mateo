@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const App = () => {
   const handleButtonClick = () => {
-    window.location.href = "https://maps.app.goo.gl/MMSc3fqByZD8Bw32A";
+    window.location.href = "https://maps.app.goo.gl/mm7HT4GLWE7V3DHPA?g_st=iw";
   };
 
   return (
@@ -10,8 +10,7 @@ const App = () => {
       <Button onClick={handleButtonClick}>Ver ubicación</Button>
       <Div2>
         <P2>27 de Enero de 2023</P2>
-        <P2>7:00 p.m.</P2>
-        <P2>Calle --- Mz. - Lt. -, Col. --</P2>
+        <P2>6:00 p.m.</P2>
       </Div2>
       <Div>
         <P>Ven a celebrar</P>
