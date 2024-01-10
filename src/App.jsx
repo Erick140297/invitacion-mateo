@@ -55,7 +55,7 @@ const P = styled.p`
   color: #4438e4;
   text-shadow: 2px 2px 4px white;
   @media (max-height: 850px) {
-    font-size: 25px;
+    //font-size: 25px;
   }
 `;
 
@@ -65,7 +65,7 @@ const P2 = styled.p`
   color: #2364bf;
   text-shadow: 2px 2px 4px white;
   @media (max-height: 850px) {
-    font-size: 25px;
+    //font-size: 25px;
   }
 `;
 
@@ -76,8 +76,8 @@ const H2 = styled.h2`
   text-shadow: 2px 2px 4px white;
   margin: 10px;
   @media (max-height: 850px) {
-    font-size: 35px;
-    margin: 5px;
+    //font-size: 35px;
+    //margin: 5px;
   }
 `;
 
@@ -91,6 +91,6 @@ const Button = styled.button`
   border: 2px #024802 solid;
   margin-bottom: 10px;
   @media (max-height: 850px) {
-    font-size: 20px;
+    //font-size: 20px;
   }
 `;
