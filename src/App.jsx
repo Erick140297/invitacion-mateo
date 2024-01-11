@@ -9,7 +9,7 @@ const App = () => {
     <Container>
       <Button onClick={handleButtonClick}>Ver ubicación</Button>
       <Div2>
-        <P2>27 de Enero de 2023</P2>
+        <P2>27 de Enero de 2024</P2>
         <P2>6:00 p.m.</P2>
       </Div2>
       <Div>
